@@ -196,7 +196,7 @@ function llenaFormulario(){
 
 //Limpia la Agenda creada y pone el blanco la seleccion de elementos 
 function vaciarFormulario(){
-    document.getElementById("imagenTapa").src="/images/tapa00.png";
+    document.getElementById("imagenTapa").src="./images/tapa00.png";
     document.getElementById("aro").style="background-color:cornsilk"
     document.getElementById("precio").textContent="$ 0";
     document.getElementById("nombre").textContent="";
