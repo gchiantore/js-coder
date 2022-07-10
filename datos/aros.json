@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "imagenAro":"/images/disco-amarillo.png",
+        "imagenAro":"./images/disco-amarillo.png",
         "nombreAro":"Aro Amarillo",
         "colorAro":"#FFC933",
         "precioAro":55,
@@ -9,7 +9,7 @@
     },
     {
         "id":2,
-        "imagenAro":"/images/disco-naranja.png",
+        "imagenAro":"./images/disco-naranja.png",
         "nombreAro":"Aro Naranja",
         "colorAro":"#FF7633",
         "precioAro":60,
@@ -17,7 +17,7 @@
     },
     {
         "id":3,
-        "imagenAro":"/images/disco-negro.png",
+        "imagenAro":"./images/disco-negro.png",
         "nombreAro":"Aro Negro",
         "colorAro":"#000000",
         "precioAro":65,
@@ -25,7 +25,7 @@
     },
     {
         "id":4,
-        "imagenAro":"/images/disco-rosa.png",
+        "imagenAro":"./images/disco-rosa.png",
         "nombreAro":"Aro Rosa",
         "colorAro":"#FFA0DC",
         "precioAro":70,

@@ -140,6 +140,7 @@ function recuperarCarrito(){
             document.getElementById("rowCarrito").innerHTML="";
             document.getElementById("contenedorCarrito").innerHTML="";
             carrito=[];
+            actualizaIconoCarrito(carrito);
             localStorage.removeItem("carrito");
         }
         for (item of carrito){
@@ -421,6 +422,7 @@ function escuchaDOM(){
                 document.getElementById("contenedorCarrito").innerHTML="";
                 carrito=[];
                 actualizaIconoCarrito(carrito)
+                console.log(carrito.length);
                 localStorage.removeItem("carrito");
             }
             localStorage.setItem("carrito",JSON.stringify(carrito));
@@ -475,7 +477,7 @@ function escuchaDOM(){
 //esten cargados llamo a cargar las secciones, y cuando las secciones esten cargadas 
 //llamo a renderizar y habilitar las fucniones de la aplicacion.
 async function obTapas() {
-    const respuesta=await fetch("datos/tapas.json")
+    const respuesta=await fetch("./datos/tapas.json")
     const tapas= await respuesta.json()
     for(const tapa of tapas){
         lasTapas.push(new Tapa(tapa));
@@ -484,7 +486,7 @@ async function obTapas() {
 }
 
 async function obAros() {
-    const respuesta=await fetch("datos/aros.json")
+    const respuesta=await fetch("./datos/aros.json")
     const aros= await respuesta.json()
     for(const aro of aros){
         losAros.push(new Aro(aro));
@@ -492,7 +494,7 @@ async function obAros() {
     obSecciones();
 }
 async function obSecciones() {
-    const respuesta=await fetch("datos/secciones.json")
+    const respuesta=await fetch("./datos/secciones.json")
     const secciones= await respuesta.json()
     for(const seccion of secciones){
         lasSecciones.push(new Seccion(seccion));
