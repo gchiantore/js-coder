@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "imagenTapa":"/images/tapa01.png",
+        "nombreTapa":"Treat People With Kindness",
+        "precioTapa":120,
+        "seleccionada":false
+    },
+    {
+        "id":2,
+        "imagenTapa":"/images/tapa02.png",
+        "nombreTapa":"Ride The Wave",
+        "precioTapa":125,
+        "seleccionada":false
+    },{
+        "id":3,
+        "imagenTapa":"/images/tapa03.png",
+        "nombreTapa":"Hi. Hey. Hello.",
+        "precioTapa":130,
+        "seleccionada":false
+    },{
+        "id":4,
+        "imagenTapa":"/images/tapa04.png",
+        "nombreTapa":"Agenda 2022",
+        "precioTapa":135,
+        "seleccionada":false
+    },{
+        "id":5,
+        "imagenTapa":"/images/tapa05.png",
+        "nombreTapa":"It comes in waves",
+        "precioTapa":145,
+        "seleccionada":false
+    },{
+        "id":6,
+        "imagenTapa":"/images/tapa06.png",
+        "nombreTapa":"Get shit done",
+        "precioTapa":155,
+        "seleccionada":false
+    }
+]

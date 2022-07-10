@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    border:0px;
+}
+
+
+body{
+    background-color: #e6DDD5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedorHeader{
+    position:fixed;
+    top:0px;
+    background-color: #e6DDD5;
+    z-index: 1000;
+    width: 100vw;
+}
+.tituloLogo{
+    font-family:'PT Serif Caption', sans-serif;
+    font-weight: 800;
+    color:#59787C;
+    padding-top:10px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.contenedor h1{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight:100;
+    font-size: 130px;
+    text-align: right;
+}
+
+.contenedor{
+    border-radius: 15px;
+    padding: 40px;
+    /* background-color: #C98F79; */
+    margin: 0 auto;
+
+}
+
+.separadorVertical{
+    margin-top: 150px;
+}
+.marginGap{
+    padding: 10px;
+}
+
+.footer{
+    background-color:#59787C ;
+    color: darkgray;
+    height: 200px;
+}
+
+.barramenu{
+    margin:0 auto;
+    max-width: 1024;
+    text-align: center;
+}
+
+.nombreAgenda{
+    font-size: 25px;
+    font-weight: 200px;
+    text-align: center;
+}
+
+.contenidoAgenda{
+    font-size: 15px;
+    font-weight: 100px;
+    text-align: left;
+}
+
+.agendaPrecio{
+    font-size: 25px;
+    font-weight: 200px;
+    text-align: right;
+}
+
+.botonCallToAction{
+    background-color: #59787C;
+    color:#e6DDD5;
+}
+
+.botonCallToAction:hover{
+    background-color: #83B5BD;
+
+}
+
+.botonCancelar{
+    background-color:antiquewhite;
+    color: #59787C;
+
+}
+
+.botonCancelar:hover{
+    background-color: bisque;
+
+}
+
+.contenedorBoton{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.izquierda{
+    float: left;
+    text-align: left;
+}
+.derecha{
+    float: right;
+    text-align: right;
+}
+
+.centro{
+    text-align: center;
+}
+
+.contenedorElementos{
+    background-color: #83B5BD;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contenedorAgenda{
+    background-color:cornsilk;
+    border-radius: 20px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 7px 7px; 
+    grid-template-areas: 
+    "titulo titulo titulo titulo titulo"
+    "tapa tapa aro aro aro"
+    "tapa tapa aro aro aro"
+    "tapa tapa aro aro aro"
+    "secciones secciones secciones secciones secciones"
+    "botones botones precio precio precio"; 
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tituloAgenda {
+    grid-area: titulo; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color:white;
+    font-weight: 500;
+    font-size: larger;
+    border-radius: 10px;
+    background-color:#83B5BD;
+}
+
+.tapaAgenda {
+    grid-area: tapa; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.seccionesAgenda {
+    grid-area: secciones;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding:10px;
+    column-gap: 10px;
+}
+.aroAgenda {
+    grid-area: aro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+
+}
+.botonesAgenda {
+    grid-area: botones;
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    width: 100%;
+
+
+}
+.precioAgenda {
+    grid-area: precio;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+.contenedorNumero{
+    background-color: coral;
+    height: 80px;
+    width: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    border-color: #83B5BD;
+    border-style: solid;
+    border-width: 5px;
+
+
+}
+
+.cajaElementos{
+    background-color: beige;
+    width: calc(100% - 30px);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.numeroEtapa{
+    position:absolute;
+    top:20%;
+    font-size: 30px;
+    font-weight: 300px;
+    color: aliceblue;
+}
+
+.tituloEtapa{
+    position:relative;
+    font-size: 30px;
+    font-weight: 300px;
+    color:#59787C;
+}
+
+.inputNombre{
+    text-align: center;
+    font-size: 25px;
+}
+.contenedorCards{
+    display:flex;
+    flex-direction: row;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contenedorTapa{
+    width: 150px;
+    height: 230px;
+    background-color:aliceblue;
+    border-radius: 3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorSeccion{
+    width: 150px;
+    height: 230px;
+    background-color:aliceblue;
+    border-radius: 3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagenTapa{
+    width: 130px;
+    height: 180px;
+}
+.tituloTapa{
+    padding-top: 10px;
+    color: aliceblue;
+    font-size: small;
+}
+.precioTapa{
+    padding-top:10px;
+    color: black;
+    font-weight: 500;
+    font-size: small;
+    text-align:right;
+} 
+
+.contenedorDisco{
+    width: 120px;
+    min-height: 130px;
+    padding: 10px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.disco{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.discoPrecio{
+    padding-top:10px;
+    color: black;
+    font-weight: 500;
+    font-size: small;
+    text-align:center;
+}
+
+.agendaSticky{
+    position:sticky;
+    top:130px;
+}
+
+.contenedorCarrito{
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.opSelected{
+    border-color:goldenrod;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.rowCont{
+    width: 100%;
+    height: 125px;
+    padding: 5px;
+    border-bottom: 1px gray solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contImgRow{
+    width: 25%px;
+    height: 120px;
+}
+
+.imgRow{
+    width: 85px;
+    height: 120px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.infoRow{
+    width: 50%;
+    height: 120px;
+
+}
+.precioRow{
+    width: 25%;
+    height: 120px;
+
+}
+.textoTitulo{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+}
+.aroRow{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.seccRow{
+    margin-left: 5px;
+}
+
+.seccRow p{
+    font-size: 12px;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+}
+
+.precioRow{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.precioRow p{
+    font-size: 24px;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+}
+
+.iconoCarrito{
+    text-decoration: none;
+    color: #59787C;
+}

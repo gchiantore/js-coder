@@ -1,0 +1,68 @@
+.rowCont{
+    width: 400px;
+    height: 120px;
+    background-color: aqua;
+    padding: 5px;
+    border-bottom: 1px gray solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.contImgRow{
+    width: 90px;
+    height: 120px;
+    background-color: blue;
+}
+
+.imgRow{
+    width: 90px;
+    height: 120px;
+}
+
+.infoRow{
+    width: 180px;
+    height: 120px;
+    background-color: blueviolet;
+}
+.precioRow{
+    width: 120px;
+    height: 120px;
+    background-color: blueviolet;
+}
+.textoTitulo{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 5px;
+}
+.aroRow{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.seccRow{
+    margin: 5px;
+}
+.seccRow p{
+    font-size: 12px;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+}
+
+.precioRow{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.precioRow p{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}

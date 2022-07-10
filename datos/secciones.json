@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "nombreSeccion":"Contactos",
+        "precioSeccion":450,
+        "imagenSecc":"/images/sec01.png",
+        "elegida":false
+    },
+    {
+        "id":2,
+        "nombreSeccion":"Semana a la vista",
+        "precioSeccion":150,
+        "imagenSecc":"/images/sec02.png",
+        "elegida":false
+    },{
+        "id":3,
+        "nombreSeccion":"Dia a la vista",
+        "precioSeccion":250,
+        "imagenSecc":"/images/sec03.png",
+        "elegida":false
+    },{
+        "id":4,
+        "nombreSeccion":"Notas",
+        "precioSeccion":200,
+        "imagenSecc":"/images/sec04.png",
+        "elegida":false
+    }
+]
